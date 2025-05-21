@@ -1,5 +1,5 @@
 # Gutenberg Block Registration + Search CLI Command
-A Gutenberg block which allows an editor to search for a published post to insert as a 'read more' link into a post via the the Gutenberg editor. Also, a corresponding WP CLI command which provides the ability to search for posts which contain that block in the post content. This readme comprises both some installation and functional information as well as some of my thoughts about the work.
+A Gutenberg block which allows an editor to search for a published post to insert as a 'read more' link into a post via the the Gutenberg editor. Also, a corresponding WP CLI command which provides the ability to search for posts which contain that block in the post content. This readme comprises both some installation and functional information as well as some of my thoughts about the work. I also added some screenshots of the block and various outputs.
 
 ## Installation
 1. Download the latest release, and either upload the extracted zip to your WordPress instance (into a directoy sited at `wp-content/plugins/dmg-alert`) or install via the plugins screen as a zip file.
