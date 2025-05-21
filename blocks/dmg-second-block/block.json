@@ -1,0 +1,12 @@
+{
+    "apiVersion": 2,
+    "name": "dmg/second-block",
+    "title": "Second Block",
+    "category": "widgets",
+    "icon": "smiley",
+    "description": "A simple second block to test multiple block functionality.",
+    "supports": {
+      "html": true
+    },
+    "editorScript": "file:./build/index.js"
+  }

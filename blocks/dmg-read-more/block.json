@@ -1,0 +1,37 @@
+{
+    "apiVersion": 2,
+    "name": "dmg/read-more",
+    "title": "Read More Link",
+    "category": "widgets",
+    "icon": "admin-links",
+    "description": "Insert a 'Read More' link to another post.",
+    "supports": {
+      "html": false,
+      "color": {
+        "text": true,
+        "background": true,
+        "link": true
+      }
+    },
+    "example": {},
+    "attributes": {
+      "postId": {
+        "type": "number"
+      },
+      "postTitle": {
+        "type": "string"
+      },
+      "postLink": {
+        "type": "string"
+      },
+      "style": {
+        "type": "object",
+        "default": {}
+      },
+      "fontSize": {
+        "type": "string"
+      }
+    },
+    "editorScript": "file:./build/index.js",
+    "style": "file:./style.css"
+}

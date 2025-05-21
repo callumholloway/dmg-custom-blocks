@@ -1,0 +1,5 @@
+/* DMG Read More Block Styles - apply a simple hover effect */
+.dmg-read-more a.wp-element-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}

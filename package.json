@@ -1,0 +1,19 @@
+{
+    "name": "dmg-custom-blocks",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "webpack --mode=production"    
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.27.1",
+        "@wordpress/scripts": "^26.19.0",
+        "css-loader": "^7.1.2",
+        "mini-css-extract-plugin": "^2.9.2"
+    },
+    "dependencies": {
+        "@wordpress/block-editor": "^14.18.0",
+        "@wordpress/blocks": "^14.12.0",
+        "@wordpress/components": "^29.9.0",
+        "@wordpress/element": "^6.23.0"
+    }
+}
